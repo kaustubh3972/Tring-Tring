@@ -3,11 +3,12 @@
 	width: 85%;
 	right: 0;
 	position: fixed;
+	top: 0;
 }
 #dash-nav {
 	display: flex;
 	justify-content: center;
-	/* padding: 0 2%; */
+	padding: 1% 0;
 	border-bottom: 2px solid black;
 	align-items: center;
 }
@@ -62,4 +63,14 @@ table {
 }
 th {
 	margin: 2%;
+}
+.logo,
+#nav-text {
+	display: none;
+}
+.navbar {
+	box-shadow: none;
+}
+.navbar .menu-items {
+	width: 15%;
 }
