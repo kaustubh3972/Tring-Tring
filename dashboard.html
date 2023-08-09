@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="dashstyle.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="navbar">
+				<div class="container nav-container">
+					<input class="checkbox" type="checkbox" name="" id="" checked />
+					<div class="hamburger-lines">
+						<span class="line line1"></span>
+						<span class="line line2"></span>
+						<span class="line line3"></span>
+					</div>
+					<div class="logo">
+						<a href="/index.html"><img src="logo.png" alt="Logo" /></a>
+					</div>
+					<div id="nav-text">
+						<p>SUMAN</p>
+						<p>6281000010</p>
+					</div>
+					<div class="menu-items">
+						<div id="nav-logo">
+							<li>
+								<img src="logo.png" alt="Logo" />
+							</li>
+						</div>
+						<li><a href="/dashboard.html">Dashboard</a></li>
+						<li><a href="#">Audio Files</a></li>
+						<li><a href="#">Users</a></li>
+						<li><a href="#">Winning Numbers Records</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">Advertisements</a></li>
+						<li><a href="#">Reports</a></li>
+						<li><a href="#">Settings</a></li>
+						<li id="bugs"><a href="#">Bugs Reported by Users</a></li>
+						<li id="show"><a href="#">SHOW DYNAMIC COUNT</a></li>
+						<div id="nav-logout">
+							<li><a id="logout" href="#">Logout</a></li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<section id="dashboard">
+			<nav id="dash-nav">
+				<div id="link-title">Dashboard</div>
+				<div id="nav-prize">
+					<div class="prize-txt">POT PRIZE MONEY</div>
+					<div class="prize">1,00,780 Rs</div>
+				</div>
+				<div id="nav-btn">
+					<div id="enter-num">Enter Today's Winning Number</div>
+				</div>
+			</nav>
+			<section id="dash-content">
+				<div id="user-stats" class="stats">
+					<div class="stats-head">
+						<div class="stats-left">User Stats</div>
+						<div class="stats-right">
+							<label for="date">Date Range </label>
+							<select name="date" id="date">
+								<option value="today">Today</option>
+								<option value="yesterday">Yesterday</option>
+								<option value="Day before yesterday">
+									Day before yesterday
+								</option>
+							</select>
+						</div>
+					</div>
+					<div class="stats-data">
+						<table>
+							<thead>
+								<th>Total Users</th>
+								<th>New Users</th>
+								<th>Recurring Users</th>
+								<th>Retention Rate</th>
+							</thead>
+							<tbody>
+								<td>45,00,000</td>
+								<td>5,300</td>
+								<td>5,30,000</td>
+								<td>30%</td>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="pre-stats" class="stats">
+					<div class="stats-head">Prediction Stats</div>
+					<div class="stats-data">
+						<table>
+							<thead>
+								<th>Total Predictions</th>
+								<th>Today's Predictions</th>
+								<th>This Week Predictions</th>
+								<th>This Month Predictions</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>45,00,000</td>
+									<td>5,30,000</td>
+									<td>40,00,000</td>
+									<td>40,00,000</td>
+								</tr>
+								<tr>
+									<th>Today's Unique Predictions</th>
+									<th>Predictions via APP</th>
+									<th>Predictions via Call/VR</th>
+								</tr>
+								<tr>
+									<td>35,000</td>
+									<td>3,30,000</td>
+									<td>2,00,000</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="reg-stats" class="stats">
+					<div class="stats-head">Regional Stats</div>
+					<div class="stats-data"></div>
+				</div>
+			</section>
+		</section>
+	</body>
+</html>

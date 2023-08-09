@@ -1,0 +1,65 @@
+#dashboard {
+	text-align: center;
+	width: 85%;
+	right: 0;
+	position: fixed;
+}
+#dash-nav {
+	display: flex;
+	justify-content: center;
+	/* padding: 0 2%; */
+	border-bottom: 2px solid black;
+	align-items: center;
+}
+#link-title {
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	width: 30%;
+	font-weight: 600;
+}
+#nav-prize {
+	width: 30%;
+	padding-top: 1%;
+}
+#nav-prize .prize {
+	font-size: 1.5rem;
+}
+#nav-btn {
+	width: 30%;
+}
+#enter-num {
+	width: 60%;
+	margin: auto;
+	padding: 4%;
+	font-size: 0.7rem;
+	background: #009900;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+#enter-num:hover {
+	color: black;
+	background: lawngreen;
+}
+#user-stats {
+	display: flex;
+	flex-direction: column;
+}
+.stats-head {
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+	font-size: 2rem;
+	font-weight: 500;
+}
+select {
+	cursor: pointer;
+}
+table {
+	margin: 0 2%;
+	width: 100%;
+}
+th {
+	margin: 2%;
+}
