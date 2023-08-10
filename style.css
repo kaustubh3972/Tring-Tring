@@ -46,7 +46,7 @@ body {
 }
 
 .navbar .nav-container a:hover {
-	font-weight: 600;
+	color: black;
 }
 
 .nav-container {
@@ -173,10 +173,40 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.dash-check {
+	position: absolute;
+	display: block;
+	/* height: 190px; */
+	width: 50px;
+	top: 95px;
+	left: 70px;
+	z-index: 5;
+	opacity: 0;
+	cursor: pointer;
+}
+.dash-link {
+	display: none;
+}
+.dash-check:checked ~ .dash-link {
+	display: block;
+}
+.dash-check:checked ~ .nav-login {
+	display: none;
+}
+.dash-check:checked {
+	display: none;
+}
+/* .nav-container input[type="checkbox"]:checked ~ .menu-items .dash-link {
+	display: none;
+} */
 #nav-logout {
 	position: absolute;
 	bottom: 3%;
 	width: 100%;
+	display: none;
+}
+.dash-check:checked ~ #nav-logout {
+	display: block;
 }
 #bugs {
 	padding: 8%;
@@ -186,11 +216,21 @@ body {
 #bugs a {
 	color: lightgrey;
 }
+#bugs a:hover {
+	color: black;
+}
 #show {
 	border: 2px solid white;
 	margin: 8%;
 	padding: 5%;
 	border-radius: 15px;
+	cursor: pointer;
+}
+#show:hover {
+	background: white;
+}
+#show:hover a {
+	color: black;
 }
 section {
 	text-align: center;
