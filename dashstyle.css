@@ -74,3 +74,6 @@ th {
 .navbar .menu-items {
 	width: 15%;
 }
+#nav-logout {
+	display: block;
+}
